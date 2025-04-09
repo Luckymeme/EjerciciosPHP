@@ -1,0 +1,16 @@
+h1.titu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(44, 44, 44);
+}
+h1.tit {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: rgb(134, 57, 57);
+  background-color: rgb(148, 134, 134);
+}
