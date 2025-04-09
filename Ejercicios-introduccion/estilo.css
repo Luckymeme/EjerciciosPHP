@@ -1,0 +1,15 @@
+h1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(18, 200, 255);
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(18, 255, 196);
+}
