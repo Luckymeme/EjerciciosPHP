@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Documento</title>
 </head>
 
 <body>
     <?php
+
     try {
-        $base = new PDO('mysql:host=localhost; bdname=pruebas', 'root', '');
+        $base = new PDO('mysql:host=localhost; dbname=pruebas', 'root', '');
         $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $base->exec("SET CHARACTER SET UTF8");
     } catch (Exception $e) {

@@ -20,7 +20,7 @@
 
   <h1>CRUD<span class="subtitulo">Create Read Update Delete</span></h1>
 
-  <table width="50%" border="0" align="center">
+  <table width="50%" border="1" align="center">
     <tr>
       <td class="primera_fila">Id</td>
       <td class="primera_fila">Nombre</td>
@@ -33,8 +33,8 @@
 
 
 
-    <!-- <?php
-          foreach ($registros as $persona): ?>
+    <?php
+    foreach ($registros as $persona): ?>
       <tr>
         <td> </td>
         <td></td>
@@ -44,7 +44,7 @@
         <td class="bot"><input type='button' name='del' id='del' value='Borrar'></td>
         <td class='bot'><input type='button' name='up' id='up' value='Actualizar'></a></td>
       </tr>
-    <?php endforeach ?> -->
+    <?php endforeach ?>
 
     <tr>
       <td></td>

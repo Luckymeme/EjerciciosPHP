@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 09-04-2025 a las 16:38:57
+-- Tiempo de generación: 10-04-2025 a las 19:52:35
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 8.1.10
 
@@ -20,6 +20,28 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `pruebas`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `datospersonales`
+--
+
+CREATE TABLE `datospersonales` (
+  `NIF` varchar(10) DEFAULT NULL,
+  `NOMBRE` varchar(15) DEFAULT NULL,
+  `APELLIDO` varchar(20) DEFAULT NULL,
+  `EDAD` int(2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `datospersonales`
+--
+
+INSERT INTO `datospersonales` (`NIF`, `NOMBRE`, `APELLIDO`, `EDAD`) VALUES
+('51972854W', 'MARIA', 'GÓMEZ', 27),
+('25252525W', 'Juan', 'Gómez', 18),
+('51982457B', 'Elena', 'Martín', 27);
 
 -- --------------------------------------------------------
 
