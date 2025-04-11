@@ -36,15 +36,21 @@
     <?php
     foreach ($registros as $persona): ?>
       <tr>
-        <td> </td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><?php echo $persona->Id ?></td>
+        <td><?php echo $persona->Nombre ?></td>
+        <td><?php echo $persona->Apellido ?></td>
+        <td><?php echo $persona->Direccion ?></td>
 
-        <td class="bot"><input type='button' name='del' id='del' value='Borrar'></td>
+        <td class="bot">
+          <a href="borrar.php?Id=<?php echo $persona->Id ?>"> <!--Lo de la id para qeu cada boton "sea de su persona" -->
+            <input type='button' name='del' id='del' value='Borrar'>
+          </a>
+        </td>
         <td class='bot'><input type='button' name='up' id='up' value='Actualizar'></a></td>
       </tr>
-    <?php endforeach ?>
+
+    <?php endforeach ?> <!--//Una chorrada para dentro del bucle//
+     echo $persona->Nombre . "<br>"; -->
 
     <tr>
       <td></td>
