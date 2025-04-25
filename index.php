@@ -42,7 +42,7 @@
         <td><?php echo $persona->Direccion ?></td>
 
         <td class="bot">
-          <a href="borrar.php?Id=<?php echo $persona->Id ?>"> <!--Lo de la id para qeu cada boton "sea de su persona" -->
+          <a href="borrar.php?Id=<?php echo $persona->Id ?>"> <!--Lo de la id para que cada boton "sea de su persona" -->
             <input type='button' name='del' id='del' value='Borrar'>
           </a>
         </td>
