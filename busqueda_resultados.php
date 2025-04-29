@@ -45,9 +45,9 @@
 <body>
     <?php
     $mibusqueda = $_GET["buscar"];
-    $mipag = $_SERVER['PHP_SELF'];
+    $mipag = $_SERVER["PHP_SELF"];
 
-    if ($mibusqueda != null) {
+    if ($mibusqueda != NULL) {
         ejecuta_consulta($mibusqueda);
     } else {
         echo ("<form action='" . $mipag . "' method='get'>

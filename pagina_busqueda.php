@@ -21,7 +21,7 @@
     mysqli_select_db($conexion, $db_nombre) or die("No se encuentra la BBDD");
     mysqli_set_charset($conexion, "utf8");
 
-    $consulta = "SELECT * FROM PRODUCTOS WHERE NOMBRE LIKE'%$busqueda%'";
+    $consulta = "SELECT * FROM PRODUCTOS WHERE NOMBRE LIKE'%$busqueda%'"; //Es AQUI; genio, crack, mastodonte
 
     $resultados = mysqli_query($conexion, $consulta);
 
