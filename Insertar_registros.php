@@ -25,6 +25,8 @@
     $consulta = "INSERT INTO PRODUCTOS (CÓDIGOARTÍCULO, SECCIÓN, NOMBRE, PRECIO, FECHA, IMPORTADO, PAÍSDEORIGEN) VALUES ('AR44','Deportes','Raqueta badminton','15.78','29.04.2025','FALSO','España')";
     $resultados = mysqli_query($conexion, $consulta);
 
+    // UPDATE `productos` SET PRECIO = '34.40' WHERE NOMBRE = 'Vestido señora'
+    // UPDATE `productos` SET PRECIO = '350.69', PAÍSDEORIGEN='España' WHERE CÓDIGOARTÍCULO = 'A001'
 
     mysqli_close($conexion);
 
